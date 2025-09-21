@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 15px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background: url('https://via.placeholder.com/1600x600?text=KeithMed+Healthcare') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.btn {
+  background: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #005bb5;
+}
+
+/* Page Sections */
+.page {
+  padding: 50px 20px;
+  background: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.services-list {
+  list-style: disc;
+  margin: 20px;
+  padding: 0;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
